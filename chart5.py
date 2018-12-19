@@ -11,8 +11,6 @@ def plot():
     regline = a*x + b
 
     print('Regression line = ' + str(round(a, 2)) + '*x + ' + str(round(b, 2)))
-    print('The Pearson correlation coefficient = ' + str(round(r, 2)))
-    print('The standard deviation =' + str(round(da, 2)))
 
     plt.figure(figsize=(5, 5))
     plt.plot(x, y, 'ro')
